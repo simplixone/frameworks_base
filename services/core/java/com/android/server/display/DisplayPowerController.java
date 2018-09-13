@@ -20,11 +20,8 @@ import android.animation.Animator;
 import android.animation.ObjectAnimator;
 import android.annotation.Nullable;
 import android.annotation.UserIdInt;
-<<<<<<< HEAD
 import android.app.ActivityManager;
-=======
 import android.content.ContentResolver;
->>>>>>> a7132746127... Fill seekbar and progress bar with gradient based on level
 import android.content.Context;
 import android.content.pm.ParceledListSlice;
 import android.content.res.Resources;

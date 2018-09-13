@@ -13,7 +13,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<selector xmlns:android="http://schemas.android.com/apk/res/android">
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:state_checked="true">
         <shape android:visible="true" android:shape="rectangle" android:useLevel="false">
         <gradient 

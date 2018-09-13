@@ -4470,6 +4470,25 @@ public final class Settings {
          */
 
         /**
+         * Display cutout
+         * @hide
+         */
+        public static final String DISPLAY_CUTOUT_HIDDEN = "display_cutout_hidden";
+
+        /** @hide */
+        private static final Validator DISPLAY_CUTOUT_HIDDEN_VALIDATOR = new
+                SettingsValidators.InclusiveIntegerRangeValidator(0, 1);
+
+        /**
+         * @hide
+         */
+        public static final String OMNI_USE_OLD_MOBILETYPE = "use_old_mobiletype";
+
+        /** @hide */
+        private static final Validator OMNI_USE_OLD_MOBILETYPE_VALIDATOR =
+                BOOLEAN_VALIDATOR;
+
+        /**
          * Settings to backup. This is here so that it's in the same place as the settings
          * keys and easy to update.
          *
@@ -4530,6 +4549,7 @@ public final class Settings {
             HAPTIC_FEEDBACK_INTENSITY,
             DISPLAY_COLOR_MODE,
             NOTIFICATION_LIGHT_PULSE,
+            OMNI_USE_OLD_MOBILETYPE,
         };
 
         /**
@@ -4676,7 +4696,11 @@ public final class Settings {
             PRIVATE_SETTINGS.add(AMBIENT_RECOGNITION_SAVING_OPTIONS_QUIET_PERIOD);
             PRIVATE_SETTINGS.add(AMBIENT_RECOGNITION_SAVING_OPTIONS_QUIET_PERIOD_START_TIME);
             PRIVATE_SETTINGS.add(AMBIENT_RECOGNITION_SAVING_OPTIONS_QUIET_PERIOD_END_TIME);
-        }
+            PRIVATE_SETTINGS.add(FACE_AUTO_UNLOCK);
+            PRIVATE_SETTINGS.add(ADVANCED_REBOOT);
+            PRIVATE_SETTINGS.add(DISPLAY_CUTOUT_HIDDEN);
+            PRIVATE_SETTINGS.add(OMNI_USE_OLD_MOBILETYPE);
+       }
 
         /**
          * These are all public system settings
@@ -4795,6 +4819,10 @@ public final class Settings {
             VALIDATORS.put(AMBIENT_RECOGNITION_SAVING_OPTIONS_QUIET_PERIOD, AMBIENT_RECOGNITION_SAVING_OPTIONS_QUIET_PERIOD_VALIDATOR);
             VALIDATORS.put(AMBIENT_RECOGNITION_SAVING_OPTIONS_QUIET_PERIOD_START_TIME, AMBIENT_RECOGNITION_SAVING_OPTIONS_QUIET_PERIOD_START_TIME_VALIDATOR);
             VALIDATORS.put(AMBIENT_RECOGNITION_SAVING_OPTIONS_QUIET_PERIOD_END_TIME, AMBIENT_RECOGNITION_SAVING_OPTIONS_QUIET_PERIOD_END_TIME_VALIDATOR);
+            VALIDATORS.put(FACE_AUTO_UNLOCK, FACE_AUTO_UNLOCK_VALIDATOR);
+            VALIDATORS.put(ADVANCED_REBOOT, ADVANCED_REBOOT_VALIDATOR);
+            VALIDATORS.put(DISPLAY_CUTOUT_HIDDEN, DISPLAY_CUTOUT_HIDDEN_VALIDATOR);
+            VALIDATORS.put(OMNI_USE_OLD_MOBILETYPE, OMNI_USE_OLD_MOBILETYPE_VALIDATOR);
         }
 
         /**
