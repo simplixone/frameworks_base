@@ -588,6 +588,13 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        
+        <activity
+            android:name=".simplix.GamemodeActivity"
+            android:label="Game Mode"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:exported="true" />
 
         <!-- Doze with notifications, run in main sysui process for every user  -->
         <service

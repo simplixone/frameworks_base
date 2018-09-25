@@ -3067,6 +3067,12 @@ public final class Settings {
                 NON_NEGATIVE_INTEGER_VALIDATOR;
 
         /**
+         * Whether to hide annoying notifications during gameplay
+         * @hide
+         */
+        public static final String GAMEMODE_ENABLED = "gamemode_enabled";
+
+        /**
          * @deprecated Use {@link android.provider.Settings.Secure#LOCK_PATTERN_ENABLED}
          * instead
          */
