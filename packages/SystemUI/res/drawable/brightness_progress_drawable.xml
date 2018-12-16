@@ -25,13 +25,14 @@
     </item>
     <item android:id="@android:id/progress"
           android:gravity="center_vertical|fill_horizontal">
-        <scale android:scaleWidth="100%">
-            <shape android:shape="rectangle"
-                   android:tint="?android:attr/colorControlActivated">
+        <clip>
+            <shape android:shape="rectangle">
                 <size android:height="@dimen/seek_bar_height" />
-                <solid android:color="@android:color/white" />
+                <gradient 
+                    android:startColor="@*android:color/primary_accent"
+                    android:endColor="@*android:color/secondary_accent"/>
                 <corners android:radius="@dimen/seek_bar_corner_radius" />
             </shape>
-        </scale>
+        </clip>
     </item>
 </layer-list>

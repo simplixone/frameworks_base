@@ -6504,6 +6504,9 @@ message MetricsEvent {
 
     // CustomSettings constant
     CUSTOM_SETTINGS = 1999;
+    
+    // SimplixOne
+    SIMPLIX = 2000;
 
   }
 }
