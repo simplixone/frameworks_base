@@ -3423,4 +3423,9 @@
   <java-symbol type="integer" name="db_wal_truncate_size" />
 
   <java-symbol type="string" name="config_defaultAssistantComponentName" />
+  
+  <!-- RevengeOS colors-->
+  <java-symbol type="color" name="primary_accent" />
+  <java-symbol type="color" name="secondary_accent" />
+  
 </resources>
