@@ -3424,8 +3424,8 @@
 
   <java-symbol type="string" name="config_defaultAssistantComponentName" />
   
-  <!-- RevengeOS colors-->
-  <java-symbol type="color" name="primary_accent" />
-  <java-symbol type="color" name="secondary_accent" />
+  <!-- RevengeOS colors -->
+  <java-symbol type="color" name="gradient_start" />
+  <java-symbol type="color" name="gradient_end" />
   
 </resources>
