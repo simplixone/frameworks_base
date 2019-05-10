@@ -218,4 +218,10 @@
 
     <color name="gradient_start">@color/gradient_start_light</color>
     <color name="gradient_end">@color/gradient_end_light</color>
+    
+    <!-- SimplixOne colors-->
+    <color name="gradient_start_light">#ffc521ff</color>
+    <color name="gradient_start_dark">#ffc521ff</color>
+    <color name="gradient_end_light">#ff1581ff</color>
+    <color name="gradient_end_dark">#ff1581ff</color>
 </resources>
