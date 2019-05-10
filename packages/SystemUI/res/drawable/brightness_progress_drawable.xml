@@ -29,8 +29,8 @@
             <shape android:shape="rectangle">
                 <size android:height="@dimen/seek_bar_height" />
                 <gradient 
-                    android:startColor="@*android:color/gradient_start"
-                    android:endColor="@*android:color/gradient_end"/>
+                    android:startColor="#ffc521ff"
+                    android:endColor="#ff1581ff"/>
                 <corners android:radius="@dimen/seek_bar_corner_radius" />
             </shape>
         </clip>

@@ -29,9 +29,9 @@
         android:gravity="center">
         <shape android:shape="rectangle">
             <gradient 
-                android:startColor="@*android:color/gradient_start"
-                android:endColor="@*android:color/gradient_end"
-                android:angle="45"/>
+                android:startColor="@*android:color/gradient_end"
+                android:endColor="@*android:color/gradient_start"
+                android:angle="135"/>
             <corners android:radius="22dp"/>
         </shape>
     </item>
